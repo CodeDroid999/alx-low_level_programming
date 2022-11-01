@@ -34,4 +34,4 @@ OR
 4. use the insert mode(i) and type abc123
 5. esc `:wq` hit enter
 
-==> Then git add . etc
+==> Then git add .
