@@ -1,35 +1,44 @@
-0x00. C - Hello, World
-In this project, I learned about compilation using gcc, entry points using main, and text-printing functions in C. GCC is basically a C compiler.
+[ALX C Programming project]![image](https://user-images.githubusercontent.com/105258746/189208480-2fccc610-22af-4ed9-8928-2ebf0e99b002.png)
 
-Tasks 📃
-0. Preprocessor
+# C PROGRAMMING `0x00. C - Hello, World`
 
-0-preprocessor: Bash script that runs a C file saved in the variable $CFILE through the preprocessor and saves the result in the file c.
-1. Compiler
+### Note: When doing this project, After using text editor of your choice to create and access the file on insert mode.Ensure the first line is always having `#!/bin/bash`, then the second line is having the correct command/answer.
+(From your terminal, convert the file created to `SCRIPT` i.e: chmod u+x filename)
 
-1-compiler: Bash script that compiles a C file saved in the variable $CFILE that does not link; saves the result in an output file of the same name but with a .o extension.
-Example: If the C file is main.c, the output is main.o.
-2. Assembler
 
-2-assembler: Bash script that generates the assembly code of a C code saved in the variable $CFILE; saves the result in an output file of the same name but with a .s extension.
-Example: If the C file is main.c, the result is main.s.
-3. Name
 
-3-name: Bash Script that compiles a C file saved in the variable $CFILE and creates an executable cisfun.
-4. Hello, puts
+This project is the first C project as part of the alx_africa curriculum, and covers the very basics of compilation and C.
 
-4-puts.c: C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line, using the function puts.
-5. Hello, printf
+## 0. Write a script that runs a C file through the preprocessor and save the result into another file.
+* File> 0-preprocessor: is a script that runs a C file through the preprocessor and save the result into another file.
+### input: `gcc -E $CFILE -o c`
 
-5-printf.c: C program that prints exactly with proper grammer, but the outcome is a piece of art,, followed by a new line, using the function printf.
-6. Size is not grandeur, and territory does not make a nation
+## 1. Write a script that compiles a C file but does not link.
+* File> 1-compiler: is a script that compiles a C file but does not link.
+### input: `gcc -c $CFILE`
 
-6-size.c: C program that prints the size of various types on the computer it is compiled and run on.
-7. Intel
+## 2. Write a script that generates the assembly code of a C code and save it in an output file.
+* File> 2-assembler: is a script that generates the assembly code of a C code and save it in an output file.
+### input: `gcc $CFILE -S`
 
-100-intel: Script that generates the assembly code in Intel syntax of a C file saved in the variable $CFILE; saves the result in an output file of the same name but with a .s extension.
-Example: If the C file is main.c, the output is main.s.
-8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+## 3. Write a script that compiles a C file and creates an executable named `cisfun`.
+* File>> 3-name: is a script that compiles a C file and creates an executable named cisfun.
+### input: `gcc $CFILE -o cisfun`
 
-101-quote.c: C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error, without using any functions listed in the NAME sesction of the man(3) printf or man(3) puts.
-learning all these was pretty interesting!!
+## 4. Write a C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
+* File>> 4-puts.c: is a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+### input: check inside the file `4-puts.c` to see code.
+
+## 5. Write a C program that prints exactly `with proper grammar, but the outcome is a piece of art`, followed by a new line.
+* File> 5-printf.c: is a C program that prints exactly "with proper grammar, but the outcome is a piece of art,", followed by a new line.
+### input: check inside the file `5-printf.c` to see code.
+
+## 6. Write a C program that prints the size of various types on the computer it is compiled and run on.
+* File> 6-size.c: is a C program that prints the size of various types on the computer it is compiled and run on.
+### input: check inside the file `6-size.c` to see code.
+
+## 7. Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+File 100-intel is a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
+## 8. Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
+File 101-quote.c is a C program that prints exactly "and that piece of art is useful" - Dora Korpar, 2015-10-19", followed by a new line, to the standard error.
