@@ -1,10 +1,10 @@
-`IDENTIFY ERROR`![image](https://user-images.githubusercontent.com/105258746/190832836-b113fa0f-e26f-4db1-b8c5-d094c3dfd0a7.png) `ANALYZE ERROR`
+### `IDENTIFY ERROR` `ANALYZE ERROR`
 
-
+### Debugging
 Debugging is the process of detecting and removing of existing and potential errors (also called as 'bugs') in a software code that can cause it to behave unexpectedly or crash.
-`YOU HAVE TO CRAETE YOUR PROTOTYPE ON YOUR main.h file FOR YOUR CODES TO WORK`
+`YOU HAVE TO CREATE YOUR PROTOTYPE ON YOUR main.h file FOR YOUR CODES TO WORK`
 
-## File: 0-main.c
+### File: 0-main.c
 In most projects, we often give you only one main file to test with. For example, this main file is a test for a postitive_or_negative() function similar to the one you worked with in an earlier C project:
 ```
 #include "main.h"
@@ -273,7 +273,7 @@ carrie@ubuntu:/debugging$
 - You can assume that all test cases have valid month/day combinations (i.e. there will never be a June 31st or November 31st, etc.), but not all month/day/year combinations are valid (i.e. February 29, 1991 or February 29, 2427).
 
 
-# AS A PROGRAMMER, WHAT DO YOU DO WHEN YOU GET STUCK?
+### -AS A PROGRAMMER, WHAT DO YOU DO WHEN YOU GET STUCK?
 - To help you track down that bug, start reading your code aloud. 
 - Pretend that a programmer friend is sitting right next to you. 
 - Explain what your code is doing and how it works. As you talk through your code, you’ll find the problem. If you don’t, have your imaginary friend ask you questions during your explanation.
