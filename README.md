@@ -1,6 +1,6 @@
-ALX Cohort 10![image](https://user-images.githubusercontent.com/105258746/189962379-f8aca8d6-0a1b-4367-8360-af2dd481734e.png)
+### ALX Cohort 10!
 
-# This repository contains `alx` C projects and other low level programming exercices.
+### This repository contains `alx` C projects and other low level programming exercices.
 
 ### AS A PROGRAMMER, WHAT DO YOU DO WHEN YOU GET STUCK?
 - To help you track down that bug, start reading your code aloud. 
@@ -9,10 +9,10 @@ ALX Cohort 10![image](https://user-images.githubusercontent.com/105258746/189962
 `Don’t worry about going mental. You’re a C programmer. You’re already mental.` 😅
 
 
-As a bonus, talking through your code also helps you identify which portions need to have comments and what the comments should be.
+As a bonus, talking through your code also helps you identify which portions need to have comments and what the comments sh33#ould be.
 
 
-# Content
+### Content
 Directory | Files
 --------- | -----
 [0x00-hello_world project](https://github.com/CodeDroid999/alx-low_level_programming/tree/main/0x00-hello_world) | 0-preprocessor,1-compiler,2-assembler,3-name,4-puts.c,5-printf.c,6-size.c,100-intel,101-quote.c
@@ -25,6 +25,4 @@ Directory | Files
 [0x07-pointers_arrays_strings](https://github.com/CodeDroid999/alx-low_level_programming/tree/main/0x07-pointers_arrays_strings)
 [0x08-recursion](https://github.com/CodeDroid999/alx-low_level_programming/tree/main/0x08-recursion)
 [0x09-static_libraries]()
-Process..
 
-This repo may contain some errors. If you notice any, please add a pull request.
