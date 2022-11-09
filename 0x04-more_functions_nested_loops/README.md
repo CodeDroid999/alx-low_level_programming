@@ -1,8 +1,6 @@
-# PROJECT 0x04. C - More functions, more nested loops
+### PROJECT 0x04. C - More functions, more nested loops
 
-![image](https://user-images.githubusercontent.com/105258746/190835047-aa8ab3e3-4e8a-4302-a215-8af869289b9e.png)
-
-#### Nested loop means a loop statement inside another loop statement. That is why nested loops are also called as “loop inside loop"
+### Nested loop means a loop statement inside another loop statement. That is why nested loops are also called as “loop inside loop"
 `(A nested loop is a loop inside the body of another loop)`
 
 - Note: The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
