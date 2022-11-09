@@ -1,5 +1,4 @@
-# 0x05. C - Pointers, arrays and strings
-![image](https://user-images.githubusercontent.com/105258746/190977571-d5135d31-02a5-4ff3-88de-d9062d6cfe13.png)
+### 0x05. C - Pointers, arrays and strings
 
 ### A pointer is a variable that stores the memory address of another variable as its value. A pointer variable points to a data type (like int) of the same type, and is `created with the * operator`.
 
